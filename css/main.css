@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+#main-nav {
+  background: #f70000;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+#main-nav .logo {
+  width: 120px;
+}
+
+span h2 {
+  padding-right: 30px;
+  color: #ffffff;
+  color: #ffffff;
+  display: inline-block;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+#main-nav .container {
+  display: flex;
+  grid-template-columns: 1fr 2.5fr 8.5fr;
+  padding: 1rem;
+  align-items: center;
+}
+
+#main-nav a {
+  border-left: 0.5px solid #ffffff;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 12px;
+  padding: 10px;
+  text-decoration: none;
+  align-items: flex-end;
+}
+
+#intro .py-1 .py-3 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#intro h2 {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+#gallery h2 {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.align {
+  text-align: center;
+}
+
+.bottom-line {
+  height: 4px;
+  width: 6rem;
+  background: #f70000;
+  display: block;
+  margin: 0 auto 1rem auto;
+  border-radius: 10px;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0.2rem;
+}
+
+.items .item {
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.items .item-text p {
+  text-align: center;
+  color: #f70000;
+}
+
+.items .item-text h6 {
+  text-align: center;
+  color: #2e3439;
+}
+
+.test-info {
+  display: grid;
+  grid-template-areas: "bioimage bio bio" "aw1 aw2 aw3";
+  grid-gap: 1.2rem;
+}
+
+.test-image {
+  grid-area: bioimage;
+}
+
+.test {
+  grid-area: bio;
+  border-left: 3px solid #ffffff;
+  padding: 0.8rem;
+}
+
+#test-drive h2 {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.bg-light {
+  border-left: #f70000 3px solid;
+}
+
+.test-info {
+  padding: 50px;
+  border: 2px solid #979a9c;
+  border-radius: 20px;
+}
+
+.servicing-info {
+  display: grid;
+  grid-template-areas: "bioimage bio bio" "aw1 aw2 aw3";
+  grid-gap: 1.2rem;
+}
+
+.servicing-image {
+  grid-area: bioimage;
+}
+
+.servicing {
+  grid-area: bio;
+  border-left: 3px solid #ffffff;
+  padding: 0.8rem;
+}
+
+#servicing-book h2 {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.bg-light {
+  border-left: #f70000 3px solid;
+}
+
+.servicing-info {
+  padding: 50px;
+  border: 2px solid #979a9c;
+  border-radius: 20px;
+}
+
+#servicing-book h2 {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */
